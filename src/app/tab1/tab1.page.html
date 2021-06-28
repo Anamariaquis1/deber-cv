@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar color="primary">
+    <ion-title color="secondary">
+      DATOS PERSONALES
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,45 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    
+    <ion-card color="tertiary">
+      <ion-card-content color="tertiary">
+         <img src="assets/Elisa.jpg" >
+         <h1>Elisa Maritza Rodriguez Holguin</h1>
+         <h1>26 AÑOS</h1>
+         <h1>elisa.rodriguezh@ug.edu.ec</h1>
+         <h1>DIR: Coop. Bella Visión Sl.10 Mz.436, PARAÍSO LA FLOR, Guayaquil  </h1>
+         <h1>CEL: 0962052117- 0959741206
+ </h1>
+        </ion-card-content>
+        </ion-card>
+    <ion-row>
+      <ion-col>
+        
+        <ion-text color="danger">
+          <h1>Cedula:</h1> 
+        </ion-text>
+        <ion-text color="danger">
+          <h1>Fecha de Nacimiento:</h1> 
+        </ion-text>
+        <ion-text color="danger">
+          <h1>Nacionalidad:</h1> 
+        </ion-text>
+        <ion-text color="danger">
+          <h1>Lugar de Nacimiento:</h1> 
+        </ion-text>
+        <ion-text color="danger">
+          <h1>Estado civil:</h1> 
+        </ion-text>
+      </ion-col>
+      <ion-col width-10>
+      <h1>0952194827</h1>
+      <h1>06-09-1995</h1>
+      <h1>Ecuatoriana  </h1>
+      <h1>Machalilla, Puerto López, Manabí.</h1>
+      <h1>Soltera</h1>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
